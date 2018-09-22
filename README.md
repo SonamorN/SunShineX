@@ -11,6 +11,10 @@ So ElectronJS came to the rescue. With a little bit of HTML, JS and CSS magic I 
 
 ![SunshineX preview](https://i.imgur.com/tndcF3U.png)
 
+## So what makes SunshineX special?
+
+Nothing really, I just wanted to build something with ElectronJS and here we are. 
+
 ## What do I need to alter it and build it as an exe?
 
 
