@@ -1,7 +1,7 @@
 {
-  "name": "SunshineX",
+  "name": "SunshineX OEM",
   "version": "1.0.0",
   "main": "main.js",
-  "author": "Owen Mumford Ltd.",
+  "author": "Romanos Nianios",
   "description": "An alternative to RainMeter to display buttons"
 }
