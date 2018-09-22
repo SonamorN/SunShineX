@@ -32,3 +32,8 @@ So ElectronJS came to the rescue. With a little bit of HTML, JS and CSS magic I 
 
 Yes, you will need https://github.com/toonvanvr/electron-transparency-mouse-fix
 
+## I've head electronJS uses tons of RAM...
+
+The app is pretty simple just display a few images with a link so I doesn't really use much CPU or RAM
+
+![ram usage](https://i.imgur.com/5fu2R8M.png)
