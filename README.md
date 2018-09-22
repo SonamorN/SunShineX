@@ -21,3 +21,14 @@ So ElectronJS came to the rescue. With a little bit of HTML, JS and CSS magic I 
 
 `.\electron-builder --win portable --ia32 --project "C:\Users\XXXXX\Documents\electron\sunshineX\"`
 
+## Where did you get the icons from?
+
+* Sunshine logo https://www.iconfinder.com/sorasak21
+* Status icon https://www.iconfinder.com/colebemis
+* Email icon https://www.iconfinder.com/Enesdal
+* Link icon http://danielbruce.se/
+
+## Are there any dependencies?
+
+Yes, you will need https://github.com/toonvanvr/electron-transparency-mouse-fix
+
