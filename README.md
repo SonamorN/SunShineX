@@ -35,6 +35,7 @@ Nothing really, I just wanted to build something with ElectronJS and here we are
 ## Are there any dependencies?
 
 Yes, you will need https://github.com/toonvanvr/electron-transparency-mouse-fix
+but it's already included.
 
 ## I've head electronJS uses tons of RAM...
 
