@@ -1,0 +1,38 @@
+
+body{
+    -webkit-app-region: drag; 
+    -webkit-user-select: none;
+}
+info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:800;
+    size:15px;
+    color:white;
+    display:table;
+    -webkit-app-region: no-drag; 
+}
+p {
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    margin:0;
+    margin-bottom:5px;
+    -webkit-app-region: no-drag; 
+}
+
+p:last-child {
+    margin-bottom: 0 !important;
+}
+
+span
+{
+    vertical-align: middle;
+    display: table-cell;
+    cursor: pointer; 
+    -webkit-app-region: no-drag; 
+}
+
+img
+{
+    margin-right:8px;
+    cursor: pointer; 
+
+}

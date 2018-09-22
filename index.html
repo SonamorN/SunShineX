@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SunshineX</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="uk-light uk-padding-small uk-panel">
+    <div id="main">
+        <p onClick="openLink('http://status.example.com')"><info href=""><img src="./img/status.png"/><span>Visit Status Page</span></info></p>
+        <p onClick="openLink('http://it.example.com')"><info href=""><img src="./img/link.png"/><span>Open Service Desk</span></info></p>
+        <p onClick="openLink('mailto://it-support@example.com')"><info href=""><img src="./img/mail.png"/><span>Email Service Desk</span></info></p>
+    </div>
+</body>
+<script>
+        let body = document.querySelector('body')
+        const TransparencyMouseFix = require('./js/electron-transparency-mouse-fix.js')
+        const transparencyMouseFix = new TransparencyMouseFix({
+          mode: 'whitelist',
+          whiteListElements: [body],
+        })
+      </script>
+      <script>
+       function openLink(link) {
+        const { shell } = require('electron'); //to open links in external apps
+        shell.openExternal(link) //send email to ServiceDesk
+    };
+</script>
+</html>
