@@ -37,7 +37,7 @@ Nothing really, I just wanted to build something with ElectronJS and here we are
 Yes, you will need https://github.com/toonvanvr/electron-transparency-mouse-fix
 but it's already included.
 
-## I've head electronJS uses tons of RAM...
+## I've heard electronJS uses tons of RAM...
 
 The app is pretty simple just display a few images with a link so I doesn't really use much CPU or RAM
 
